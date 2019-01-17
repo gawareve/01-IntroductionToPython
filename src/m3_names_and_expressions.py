@@ -32,15 +32,15 @@ import math
 value=(math.cos(2.75)+77)
 print(math.sqrt(value))
 ###############################################################################
-# TODO: 3.
+# DONE: 3.
 #   Immediately below this _TODO_, write code that computes and prints:
 #      the square root of ((41 * 88) + (4 * the cosine of 2))
 #   Use as few or as many intermediate names as you feel appropriate.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+print(math.sqrt(41*88)+(4*math.cos(2)))
 ###############################################################################
-# TODO: 4.
+# DONE: 4.
 #   Immediately below this _TODO_,
 #   write code that computes the square root of 2 in two ways:
 #     - By using the   math.sqrt   function.
@@ -49,9 +49,10 @@ print(math.sqrt(value))
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 
-
+print(math.sqrt(2))
+print(2**.5)
 ###############################################################################
-# TODO: 5.
+# Done: 5.
 #   Every object has a TYPE and a VALUE.  For example,
 #   for the object that is computed by  math.sqrt(2):
 #      Its TYPE is float  (which is shorthand for "floating point number").
@@ -90,10 +91,19 @@ print(math.sqrt(value))
 # After you have written and run the code to learn the TYPE
 # of each of the above, change the above _TODO_ to DONE.
 ###############################################################################
-
+print(type("hello"))
+print(type('hello'))
+print(type('a b c'))
+print(type("3"+"3"))
+print(type(2**100))
+print(type(2.0**100))
+print(type(math.sin(8)))
+print(type(math.sin))
+print(type(math))
+print(type('math'))
 ###############################################################################
 #
-# TODO: 6.
+# Done: 6.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #

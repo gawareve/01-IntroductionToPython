@@ -10,7 +10,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ########################################################################
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -28,3 +28,28 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
+import rosegraphics as rg
+size=100
+bill=rg.SimpleTurtle()
+bill.speed=35
+for k in range(100):
+    bill.pen=rg.Pen('green',5)
+    bill.forward(size)
+    bill.right(60)
+    bill.forward(size)
+    bill.right(60)
+    bill.forward(size)
+    bill.right(60)
+    size=size-1
+distance=500
+jane=rg.SimpleTurtle()
+jane.speed=35
+for k in range(100):
+    jane.pen = rg.Pen('red', 5)
+    jane.forward(distance)
+    jane.right(120)
+    jane.forward(distance)
+    jane.right(120)
+    jane.forward(distance)
+    jane.right(120)
+    distance = distance - 5
